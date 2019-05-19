@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": "> 1%"
+        },
+        "corejs": "2",
+        "useBuiltIns": "usage"
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": ["react-hot-loader/babel"]
+}

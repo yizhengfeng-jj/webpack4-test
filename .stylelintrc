@@ -1,0 +1,8 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": ["stylelint-no-unsupported-browser-features", "stylelint-order"],
+  "ignoreFiles": ["**/*.js","**/*.jsx","**/*.ts","**/*.tsx","**/*.html"],
+  "rules": {
+    "no-descending-specificity": null
+  }
+}

@@ -1,0 +1,11 @@
+## 压缩文件
+node_module.tar.gz
+
+##生产文件
+/dist
+
+## file
+.vscode
+
+##模块文件
+node_modules/
